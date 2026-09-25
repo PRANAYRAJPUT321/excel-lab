@@ -1,0 +1,40 @@
+{
+ "headers": [
+  {
+   "source": "/(.*).xlsx",
+   "headers": [
+    {
+     "key": "Content-Type",
+     "value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    },
+    {
+     "key": "Content-Disposition",
+     "value": "attachment"
+    },
+    {
+     "key": "Cache-Control",
+     "value": "public, max-age=3600"
+    }
+   ]
+  },
+  {
+   "source": "/sw.js",
+   "headers": [
+    {
+     "key": "Cache-Control",
+     "value": "no-cache"
+    }
+   ]
+  },
+  {
+   "source": "/index.html",
+   "headers": [
+    {
+     "key": "Cache-Control",
+     "value": "no-cache"
+    }
+   ]
+  }
+ ],
+ "cleanUrls": true
+}

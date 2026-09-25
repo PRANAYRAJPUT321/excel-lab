@@ -1,0 +1,35 @@
+{
+ "name": "Excel Lab \u2014 learn Excel by doing",
+ "short_name": "Excel Lab",
+ "start_url": ".",
+ "scope": ".",
+ "display": "standalone",
+ "background_color": "#05060e",
+ "theme_color": "#05060e",
+ "description": "A free, hands-on Excel trainer: a live formula lab with autocomplete and drag-select, 115 working functions, 97 explained in depth, 65 shortcuts, quizzes, timed challenges, interview prep, and 8 self-marking practice workbooks with 262 tasks. Built for students and finance professionals. Created by Pranay.",
+ "categories": [
+  "education",
+  "productivity"
+ ],
+ "lang": "en",
+ "icons": [
+  {
+   "src": "icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ]
+}
