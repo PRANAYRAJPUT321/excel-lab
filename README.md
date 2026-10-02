@@ -12,6 +12,8 @@
 ![Size](https://img.shields.io/badge/whole%20app-one%20HTML%20file-ffc53d?style=flat-square)
 ![Licence](https://img.shields.io/badge/licence-MIT-64748b?style=flat-square)
 
+[What's inside](#whats-inside) · [Workbooks](#the-practice-workbooks) · [Formula Lab](#the-formula-lab) · [Run locally](#run-it-locally) · [Deploy](#deploy-your-own) · [Author](#author)
+
 ![Excel Lab dashboard](docs/dashboard.png)
 
 </div>
@@ -29,6 +31,12 @@ practise in real Excel without anyone checking your work.
 
 It is one HTML file. No build step, no server, no database, no dependencies, no account,
 no tracking. Everything a learner does stays in their own browser.
+
+## Who it's for
+
+- 🎓 **Commerce, BBA, MBA/PGDM and CA students** who need Excel for finance, accounting and audit work
+- 💼 **Job seekers** preparing for Excel tests and analyst interviews
+- 📈 **Anyone** who has watched an Excel tutorial and still can't write the formula
 
 ## What's inside
 
@@ -73,16 +81,19 @@ the moment you press Enter. Blue cells are inputs — change one and every answe
 move; if it doesn't, your references are wrong. A **Solutions** sheet gives the model
 answer *and* other valid ways to reach it.
 
+Click a workbook name below to download it, or grab them all from the **Practice Workbooks**
+station in the [live app](https://excel-lab-by-pranay.vercel.app).
+
 | # | Workbook | Covers | Tasks |
 |:--:|---|---|:--:|
-| 01 | Foundations Bootcamp | SUM/COUNT/AVERAGE, the `$` sign, IF logic, rounding, text cleanup | 31 |
-| 02 | Lookup Mastery | VLOOKUP exact & approximate, INDEX-MATCH, two-way and two-condition lookups | 24 |
-| 03 | GST Register | COUNTIF/SUMIF, SUMIFS, a state × rate matrix from one formula, AVERAGEIFS/MAXIFS | 25 |
-| 04 | Dates & Debtors Ageing | Date arithmetic, FY logic, IFS ageing buckets, an ECL-style provision matrix | 21 |
-| 05 | Bank Reconciliation | Matching by reference, timing differences, amount errors, a BRS that proves to zero | 36 |
-| 06 | Data Cleaning & Text | TRIM/PROPER, splitting codes with FIND/MID, numbers and dates trapped in text, duplicates | 33 |
-| 07 | Loans, SIPs & Investments | PMT, a full amortisation schedule, FV/PV/NPER/RATE, NPV/IRR, XIRR, prepay-vs-invest | 48 |
-| 08 | Sales Analytics | Revenue by segment, month × region matrix, rep scorecard, Pareto, running totals | 44 |
+| 01 | [Foundations Bootcamp](excel-lab-01-foundations.xlsx) | SUM/COUNT/AVERAGE, the `$` sign, IF logic, rounding, text cleanup | 31 |
+| 02 | [Lookup Mastery](excel-lab-02-lookups.xlsx) | VLOOKUP exact & approximate, INDEX-MATCH, two-way and two-condition lookups | 24 |
+| 03 | [GST Register](excel-lab-03-gst-conditional.xlsx) | COUNTIF/SUMIF, SUMIFS, a state × rate matrix from one formula, AVERAGEIFS/MAXIFS | 25 |
+| 04 | [Dates & Debtors Ageing](excel-lab-04-dates-ageing.xlsx) | Date arithmetic, FY logic, IFS ageing buckets, an ECL-style provision matrix | 21 |
+| 05 | [Bank Reconciliation](excel-lab-05-bank-reconciliation.xlsx) | Matching by reference, timing differences, amount errors, a BRS that proves to zero | 36 |
+| 06 | [Data Cleaning & Text](excel-lab-06-data-cleaning.xlsx) | TRIM/PROPER, splitting codes with FIND/MID, numbers and dates trapped in text, duplicates | 33 |
+| 07 | [Loans, SIPs & Investments](excel-lab-07-loans-investments.xlsx) | PMT, a full amortisation schedule, FV/PV/NPER/RATE, NPV/IRR, XIRR, prepay-vs-invest | 48 |
+| 08 | [Sales Analytics](excel-lab-08-sales-analytics.xlsx) | Revenue by segment, month × region matrix, rep scorecard, Pareto, running totals | 44 |
 
 Every model answer is **machine-verified**: each workbook is built twice and recalculated
 in LibreOffice — a blank copy that must show ◯ on every task, and a fully answered copy
@@ -183,19 +194,26 @@ holds the finished site.
 
 ## Contributing
 
-Spotted a wrong explanation, a broken formula or a typo? Open an issue — corrections to
+Spotted a wrong explanation, a broken formula or a typo? [Open an issue](https://github.com/PRANAYRAJPUT321/excel-lab/issues) — corrections to
 the teaching content are the most useful thing you can send.
 
 ## Licence
 
 [MIT](LICENSE) — free for every student to use, fork and share.
 
----
+## Author
 
 <div align="center">
 
-Created by **Pranay** · PGDM Finance
+Created by **[Pranay Dadghaye](https://github.com/PRANAYRAJPUT321)**<br />
+BCA Gold Medalist 🥇 · PGDM Finance, Imperial School of Banking and Management Studies
 
-**[excel-lab-by-pranay.vercel.app](https://excel-lab-by-pranay.vercel.app)**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Pranay_Dadghaye-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pranay-dadghaye-ba89a7278)
+[![Email](https://img.shields.io/badge/Email-pranaydadghaye%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:pranaydadghaye@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-PRANAYRAJPUT321-181717?style=flat-square&logo=github)](https://github.com/PRANAYRAJPUT321)
+
+**[▶ excel-lab-by-pranay.vercel.app](https://excel-lab-by-pranay.vercel.app)**
+
+<sub>⭐ If Excel Lab helped you, star the repo so other students can find it.</sub>
 
 </div>
