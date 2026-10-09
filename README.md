@@ -42,13 +42,16 @@ no tracking. Everything a learner does stays in their own browser.
 
 | | Station | What it does |
 |:--:|---|---|
+| 🏠 | **Dashboard** | A 3D home screen: a daily XP goal ring, a streak calendar, a 12-week activity heatmap, a 3D skyline of your nine skills, and *Continue where you left off* |
+| 🔎 | **Search** | `Ctrl` + `K` (`⌘` + `K` on a Mac) or the 🔎 button searches every function, shortcut, lesson, tip, challenge, workbook and interview answer |
+| 🏅 | **Badges** | 14 achievements that flip over to show how to earn them |
 | 🧪 | **Formula Lab** | A working spreadsheet: formula-bar autocomplete, syntax hints while you type, drag-to-select references, the Excel fill handle with series detection, undo/redo, and copy-paste to and from real Excel |
 | 🔀 | **Many Ways** | 14 problems, 62 different formulas — the same answer reached five ways, so you build logic instead of memorising |
 | 📚 | **Function Vault** | 97 functions, each with a finance or audit example, where you will actually use it, and the mistake everyone makes |
 | 📥 | **Practice Workbooks** | 8 colour-coded `.xlsx` files · 48 lessons · **262 self-marking tasks** |
 | 🎓 | **Concept Modules** | 17 modules: plain explanation → technical definition → example → why it matters → interview questions |
 | 💡 | **Tips & Shortcuts** | 81 tips and 65 keyboard shortcuts, Windows and Mac |
-| ⌨️ | **Shortcut Dojo** | Press the real keys against the clock |
+| ⌨️ | **Shortcut Dojo** | Press the real keys in a 60 s, 90 s or 2-minute round. Miss one and the right keys stay on screen for 5 seconds while the clock pauses; **Learn mode** shows you the keys first, then asks you to recall them, and every round ends with a review of what you missed |
 | 🎯 | **Quiz Arena** | 76 questions in five formats, with the reasoning behind every answer |
 | ⚡ | **Challenges** | 18 graded tasks checked against the live grid — some ban a function, some require one |
 | 🎤 | **Interview Prep** | Answers in Point → Explanation → Example → Conclusion, with the cross-questions that follow |
