@@ -49,6 +49,8 @@ no tracking. Everything a learner does stays in their own browser.
 | 🔀 | **Many Ways** | 14 problems, 62 different formulas — the same answer reached five ways, so you build logic instead of memorising |
 | 📚 | **Function Vault** | 97 functions, each with a finance or audit example, where you will actually use it, and the mistake everyone makes |
 | 📥 | **Practice Workbooks** | 8 colour-coded `.xlsx` files · 48 lessons · **262 self-marking tasks** |
+| ⏱️ | **Timed Mock Exam** | A 9th workbook built like a placement Excel test: 45 minutes, 100 marks, 20 MCQs and 12 formula tasks, no hints, score unlocked on SUBMIT |
+| 🎨 | **Themes & effects** | Four palettes (Midnight gold, Ledger green, Graphite blue, Neon classic) and a Full / Calm effects switch, saved per device |
 | 🎓 | **Concept Modules** | 17 modules: plain explanation → technical definition → example → why it matters → interview questions |
 | 💡 | **Tips & Shortcuts** | 81 tips and 65 keyboard shortcuts, Windows and Mac |
 | ⌨️ | **Shortcut Dojo** | Press the real keys in a 60 s, 90 s or 2-minute round. Miss one and the right keys stay on screen for 5 seconds while the clock pauses; **Learn mode** shows you the keys first, then asks you to recall them, and every round ends with a review of what you missed |
@@ -97,10 +99,17 @@ station in the [live app](https://excel-lab-by-pranay.vercel.app).
 | 06 | [Data Cleaning & Text](excel-lab-06-data-cleaning.xlsx) | TRIM/PROPER, splitting codes with FIND/MID, numbers and dates trapped in text, duplicates | 33 |
 | 07 | [Loans, SIPs & Investments](excel-lab-07-loans-investments.xlsx) | PMT, a full amortisation schedule, FV/PV/NPER/RATE, NPV/IRR, XIRR, prepay-vs-invest | 48 |
 | 08 | [Sales Analytics](excel-lab-08-sales-analytics.xlsx) | Revenue by segment, month × region matrix, rep scorecard, Pareto, running totals | 44 |
+| 09 | [Timed Mock Exam](excel-lab-09-mock-exam.xlsx) | 45-minute placement-style test: 20 MCQs + 12 formula tasks on a sales register, marked out of 100 on SUBMIT | 32 |
 
 Every model answer is **machine-verified**: each workbook is built twice and recalculated
 in LibreOffice — a blank copy that must show ◯ on every task, and a fully answered copy
 that must show ✓ on every task. Current score: **262/262, zero errors.**
+
+The **mock exam** works differently on purpose: nothing is marked while you work. Its answer key is a hidden
+sheet of formulas over the same data, so any correct method scores and a typed-in number scores zero. Typing
+`SUBMIT` on the Result sheet unlocks the score, grade, a topic-by-topic breakdown and the answer review. Change
+the paper number for a fresh set of figures on a retake. Verified the same way: blank copy locked, fully
+answered copy 100/100, typed-values copy 0/60 on the formula section.
 
 <div align="center">
 
@@ -176,7 +185,7 @@ downloads reliable on phones.
 
 ```
 index.html                 the entire application — HTML, CSS and JS in one file
-excel-lab-0*.xlsx          8 practice workbooks, 262 self-marking tasks
+excel-lab-0*.xlsx          8 practice workbooks, 262 self-marking tasks, plus 09 the timed mock exam
 sw.js                      service worker — offline support
 manifest.webmanifest       makes it installable as an app
 vercel.json netlify.toml   download headers for the workbooks
