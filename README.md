@@ -50,7 +50,7 @@ no tracking. Everything a learner does stays in their own browser.
 | 📚 | **Function Vault** | 97 functions, each with a finance or audit example, where you will actually use it, and the mistake everyone makes |
 | 📥 | **Practice Workbooks** | 8 colour-coded `.xlsx` files · 48 lessons · **262 self-marking tasks** |
 | ⏱️ | **Timed Mock Exam** | A 9th workbook built like a placement Excel test: 45 minutes, 100 marks, 20 MCQs and 12 formula tasks, no hints, score unlocked on SUBMIT |
-| 🎨 | **Themes & effects** | Four palettes (Midnight gold, Ledger green, Graphite blue, Neon classic) and a Full / Calm effects switch, saved per device |
+| 🎨 | **Themes & effects** | Four palettes — Neon classic (the original look, and the default), Midnight gold, Ledger green and Graphite blue — and a Full / Calm effects switch, saved per device |
 | 🎓 | **Concept Modules** | 17 modules: plain explanation → technical definition → example → why it matters → interview questions |
 | 💡 | **Tips & Shortcuts** | 81 tips and 65 keyboard shortcuts, Windows and Mac |
 | ⌨️ | **Shortcut Dojo** | Press the real keys in a 60 s, 90 s or 2-minute round. Miss one and the right keys stay on screen for 5 seconds while the clock pauses; **Learn mode** shows you the keys first, then asks you to recall them, and every round ends with a review of what you missed |
